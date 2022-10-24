@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"> <!--verificar se esta completo como nesse exemplo-->
+    <link rel="stylesheet" href="style.css">
+    <title>Lista para Formulario - Front-End</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Cursos</a>       
+        <a href="#">Sobre</a>
+    </nav>
+    <h3>Lista Formularios</h3>
+    <h4>Exemplo selecao de Cursos</h4>
+</header>    
+<section class="container">    
+    <h1>PROJETO LISTA FORMULARIO</h1>
+    <h2>PROJETOS DISPONIVEIS</h2><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores fuga ullam voluptas neque ab hic sint tenetur sit officia illo a, vitae magnam possimus provident debitis! Quasi, aperiam at?</p><br>
+</section>
+<br>
+<section class="container">    
+    <h1>PROJETO LISTA FORMULARIO</h1>
+    <h2>PROJETOS DISPONIVEIS</h2><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores fuga ullam voluptas neque ab hic sint tenetur sit officia illo a, vitae magnam possimus provident debitis! Quasi, aperiam at?</p>
+</section>
+<section class="conteudo" id="grid-conteudo"> 
+  <div class="grid"> <!-- ira controlar o sistema de grades das Div--> 
+    <div>Conteudo 1</div>
+    <div>Conteudo 2</div>
+    <div>Conteudo 3</div>
+    <div>Conteudo 4</div>
+    <div>Conteudo 5</div>
+    <div>Conteudo 6</div>
+</div> 
+</section>
+
+    <form>
+        <label for="nome">Nome</label><br>
+        <input class="dados-formulario" type="name" name="nome" placeholder="Insira seu Nome"/><br>
+        <label for="contact">Contato</label><br>
+        <input class="dados-contato" type="tel" name="contact" placeholder="WhatsApp"/><br>
+        <p class="formulario-contato">
+            <input type="checkbox" id="office" name="office" value="curso office">
+            <label for="office">Quero Informacoes sobre office</label><br>
+            <input type="checkbox" id="excel" name="excel" value="curso excel">
+            <label for="excel">Quero Informacoes sobre Excel</label><br>
+            <input type="checkbox" id="word" name="word" value="curso word">
+            <label for="word">Quero Informacoes sobre Word</label><br><br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+    </form>
+     
+</body>
+</html>
