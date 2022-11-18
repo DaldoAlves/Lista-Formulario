@@ -10,9 +10,11 @@
 <body>
 <header>
     <nav>
+        <div class="anav">
         <a href="#">Inicio</a>
         <a href="#">Cursos</a>       
         <a href="#">Sobre</a>
+        </div>
     </nav>
     <h3>Lista Formularios</h3>
     <h4>Exemplo selecao de Cursos</h4>
@@ -30,16 +32,29 @@
 </section>
 <section class="conteudo" id="grid-conteudo"> 
   <div class="grid"> <!-- ira controlar o sistema de grades das Div--> 
-    <div>Conteudo 1</div>
-    <div>Conteudo 2</div>
-    <div>Conteudo 3</div>
+    <div>
+        <h3 class="textimg">Pacote Office</h3><br>
+        <img class="img" src="img/office-essencial.jpg"><br> <!--tag br corrigiu conflito de espacamento da tag a e da img-->
+        <a class="aoff">>>Saiba mais<<</a>
+    </div>
+    <div>
+        <h3 class="textexc">Pacote Excell</h3><br>
+        <img class="img-exc" src="img/excel-bi.jpg">
+        <a class="aexc">>>Saiba mais<<</a>
+    </div>
+    <div>
+        <h3 class="textlog">Logica de Programacao</h3><br>
+        <img class="img-log" src="img/logica.jpg">
+        <a class="alog">>>Saiba mais<<</a>
+    </div>
     <div>Conteudo 4</div>
     <div>Conteudo 5</div>
     <div>Conteudo 6</div>
 </div> 
 </section>
 
-    <form>
+<form>
+    <div class="divinp">
         <label for="nome">Nome</label><br>
         <input class="dados-formulario" type="name" name="nome" placeholder="Insira seu Nome"/><br>
         <label for="contact">Contato</label><br>
@@ -53,7 +68,7 @@
             <label for="word">Quero Informacoes sobre Word</label><br><br>
             <input type="submit" value="enviar">
             <input type="reset" value="limpar">
-    </form>
-     
+        </div>
+</form>     
 </body>
 </html>
